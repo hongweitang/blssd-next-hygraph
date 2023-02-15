@@ -2,6 +2,15 @@
   "name": "blssd-next-hygraph-2023",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "author": "Hongwei Tang <hello@hongweitang.com> (https://hongweitang.com)",
+  "keywords": [
+    "nextjs",
+    "tailwindcss",
+    "typescript",
+    "hygraph",
+    "graphcms"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,15 +18,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.7",
+    "@graphcms/react-image": "^1.1.0",
     "@next/font": "13.1.6",
     "@types/node": "18.13.0",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.10",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.1.0",
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.6"
   }
 }
